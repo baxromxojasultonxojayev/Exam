@@ -1,0 +1,27 @@
+@media (max-width: 1140px){
+    .nav .container{
+        width: 1040px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1060px){
+    .nav .container{
+        width: 900px;
+    }
+    .nav-list{
+        display: flex
+    }
+}
+
+@media(max-width: 1000px){
+    .nav .container{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 800px){
+    .nav .container{
+        width: 500px;
+    }
+}
