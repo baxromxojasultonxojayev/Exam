@@ -1,4 +1,211 @@
-@media (max-width: 1140px){
+@media (max-width: 1160px){
+    .container{
+        width: 1040px;
+    }
+    .container > .business{
+        width: 400px;
+    }
+
+    .business .business-text {
+        font-size: 14px;
+    }
+
+    .xizmatlar-item{
+        width: 250px;
+    }
+
+    .xizmatlar-item img{
+        width: 180px;
+    }
+}
+
+@media (max-width: 1060px){
+    .container{
+        width: 940px;
+    }
+    
+}
+
+@media (max-width: 960px){
+    .container{
+        width: 840px;
+    }
+    .nav-list{
+        width: 450px;
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .header > .container{
+        display: block;
+        text-align: center;
+    }
+
+    .container > .business{
+        width: 100%;
+    }
+
+    .business > .business-title{
+        font-size: 35px;
+    }
+    
+    .business > .business-text{
+        padding: 30px 100px;
+    }
+
+    .container > .video{
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    .xizmatlar .container > .xizmatlar-title{
+        font-size: 40px;
+        margin-top: 15px;
+    } 
+    
+    .xizmatlar .container > .xizmatlar-text {
+        padding: 20px 100px;
+    }
+    .xizmatlar .container > .xizmatlar-item {
+        width: 200px;
+    }
+
+    .xizmatlar .container > .xizmatlar-item img {
+        width: 150px;
+    }
+
+    .ishlash .container > .ishlash-text{
+        padding: 40px 100px;
+    }
+
+    .ishlash .container > .ishlash-title{
+        font-size: 40px;
+    }
+
+    .ishlash-item {
+        width: 600px;
+    }
+    .ishlash-item img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .ishlash-item > .talaba{
+        width: 100%;
+    }
+    .ishlash-item > .talaba .talaba-title{
+        font-size:  20px;
+    }
+
+    .form .container> .form-text{
+        padding: 0 100px;
+    }
+    .form-title {
+        text-align: center;
+        margin: 30px 20px;
+}
+
+@media (max-width: 880px){
+    .container{
+        width: 740px;
+    }
+}
+
+@media (max-width: 760px){
+    .container{
+        width: 600px;
+    }
+
+    .nav > .container{
+        display: block;
+        text-align: center;
+    }
+
+    .logo{
+        margin-left: 40px;
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+    }
+
+    .nav-item{
+        font-size: 12px;
+    }
+
+    .container > .video {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .container > .business {
+        margin-left: 10px;
+    }
+
+    .business > .business-text {
+        padding: 30px 23px;
+    }
+
+    .xizmatlar .container > .xizmatlar-text {
+        padding: 20px 14px;
+        font-size: 15px;
+    }
+
+    .xizmatlar-item {
+        width: 180px;
+    }
+
+    .xizmatlar-item img {
+        width: 100px;
+    }
+
+    .xizmatlar-item a{
+        font-size: 12px;
+    }
+
+    .ishlash .container > .ishlash-text {
+        padding: 40px 10px;
+        font-size: 15px;
+    }
+
+    .form .container > .form-text {
+        padding: 0 10px;
+        font-size: 15px;
+
+    }
+    footer > .container{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .copy .copy-text {
+        font-size: 12px;
+    }
+    .sayt-list{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 660px){
+    .container{
+        width: 540px;
+    }
+}
+
+@media (max-width: 560px){
+    .container{
+        width: 440px;
+    }
+}
+
+
+/* @media (max-width: 1140px){
     .nav{
         width: 1139px;
     }
@@ -128,13 +335,13 @@
 
 @media (max-width: 913px){
     .nav .container .logo{
-        /* width: 900px; */
+       width: 900px; 
         width: 200px;
     }
     .nav .container  {
         /* display: flex;
         flex-direction: column;
-        justify-content: center; */
+        justify-content: center; 
         width: 900px;
         margin-left: 20px;
         margin: 0 auto;
@@ -226,4 +433,4 @@
     footer .container{
         
     }
-}
+} */

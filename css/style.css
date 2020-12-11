@@ -10,13 +10,18 @@ body{
     font-family: "Open Sans";
 }
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 nav{
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .nav .container{
-    width: 1140px;
-    margin: 0 auto;
+    /* width: 1140px;
+    margin: 0 auto; */
     padding: 10px;
 }
 .container{
@@ -65,11 +70,11 @@ nav{
 }
 
 .header .container{
-    width: 1140px;
+    /* width: 1140px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .container .business{
@@ -102,7 +107,7 @@ nav{
     transition: 1s;
 }
 
-iframe{
+.video{
     margin-top: 100px;
     border-radius: 10px;
     background: #FFFFFF;
@@ -111,8 +116,8 @@ iframe{
 }
 
 .xizmatlar .container{
-    width: 1140px;
-    margin: 0 auto;
+    /* width: 1140px;
+    margin: 0 auto; */
     display: flex;
     justify-content: center;
     flex-direction: column ;
@@ -186,8 +191,8 @@ iframe{
 }
 
 .ishlash .container{
-    width: 1140px;
-    margin: 0 auto;
+    /* width: 1140px;
+    margin: 0 auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,9 +266,9 @@ iframe{
 }
 
 .form .container{
-    width: 1140px;
+    /* width: 1140px;
+    margin: 0 auto; */
     flex-direction: column;
-    margin: 0 auto;
 }
 
 .form-title{
@@ -332,14 +337,16 @@ form .order:hover{
 
 footer{
     background-color: #191919;
+    /* margin-bottom: 100px; */
 }
 
 footer .container{
-    width: 1140px;
-    margin: 0 auto;
+    /* width: 1140px;
+    margin: 0 auto; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .container .copy{
