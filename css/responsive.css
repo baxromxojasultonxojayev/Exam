@@ -475,3 +475,20 @@
     }
  
 }
+
+@media (max-width: 370px) {
+    .container{
+      width: 95%;  
+    } 
+
+    footer > .container {
+        flex-wrap: wrap;
+        /* padding-left: 20px; */
+        padding-top: 30px;
+    }
+
+    .internet-list {
+        margin-top: 4px;
+        margin-left: 17px;
+    }
+}
