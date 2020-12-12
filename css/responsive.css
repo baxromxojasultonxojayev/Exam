@@ -375,17 +375,25 @@
         padding: 30px 32px;
         font-size: 10px;
     }
+    .business > .business-title {
+        margin-top: 40px;
+        font-size: 25px;
+    }
 
     .container > .video {
         margin-top: 30px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
         width: 300px;
-        height: 150px;
+        height: 180px;
     }
 
     .xizmatlar .container > .xizmatlar-text {
         padding: 20px 35px;
         font-size: 10px;
+    }
+
+    .xizmatlar .container > .xizmatlar-title {
+        font-size: 25px;
     }
 
     .sahifa-link {
@@ -405,9 +413,17 @@
         padding: 10px 30px;
     }
 
+    .ishlash .container > .ishlash-title {
+        font-size: 25px;
+    }
+
     .form .container > .form-text {
         padding: 10px 30px;
         font-size: 10px;
+    }
+
+    .form-title {
+        font-size: 25px;
     }
     form input {
         width: 210px;
@@ -431,6 +447,9 @@
     }
     .container .copy {
         /* padding-top: 50px; */
+    }
+    .cop-title{
+        font-size: 25px;
     }
 }
 
