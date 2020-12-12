@@ -490,6 +490,10 @@
         margin-left: 20px;
     }
 
+    .container > .video {
+        margin-left: 15px;
+    }
+
     footer > .container {
         flex-wrap: wrap;
         /* padding-left: 20px; */
