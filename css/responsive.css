@@ -45,7 +45,7 @@
     }
 
     .container > .business{
-        width: 100%;
+        width: 98%;
     }
 
     .business > .business-title{
@@ -150,7 +150,7 @@
     }
 
     .container > .business {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     .business > .business-text {
@@ -256,17 +256,17 @@
 
 @media (max-width: 560px){
     .container{
-        width: 458px;
+        width: 448px;
     }
 
     .business > .business-title {
         margin-top: 40px;
         font-size: 30px;
+        width: 410px;
     }
     .business > .business-text {
         margin: 30px 59px;
         font-size: 10px;
-        width: 100px;
     }
 
     .container > .video {
