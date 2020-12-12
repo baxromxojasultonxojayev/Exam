@@ -402,10 +402,14 @@
 
     .ishlash-item {
         width: 350px;
-    }   
+    } 
+
+    .ishlash-item > .talaba .talaba-title{
+        font-size: 15px;
+    }
 
     .talaba-text {
-        font-size: 15px;
+        font-size: 10px;
         padding: 0 40px;
     }   
 
