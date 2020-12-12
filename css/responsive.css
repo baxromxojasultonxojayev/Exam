@@ -256,16 +256,15 @@
 
 @media (max-width: 560px){
     .container{
-        width: 440px;
+        width: 458px;
     }
 
     .business > .business-title {
         margin-top: 40px;
         font-size: 30px;
     }
-
     .business > .business-text {
-        padding: 30px 33px;
+        margin: 30px -9px;
         font-size: 10px;
     }
 
@@ -339,6 +338,9 @@
 }
 
 @media (max-width: 460px){
+    *{
+        border: 1px solid red;
+    }
     .container{
         width: 90%;
         /* padding: 50px; */
