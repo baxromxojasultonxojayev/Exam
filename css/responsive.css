@@ -344,7 +344,7 @@
 @media (max-width: 460px){
     .container{
         width: 380px;
-        padding: 50px;
+        /* padding: 50px; */
     }
 
     .nav > .container {
@@ -372,19 +372,19 @@
         margin-left: 1px;
     }
     .business > .business-text {
-        padding: 30px 3px;
+        padding: 30px 32px;
         font-size: 10px;
     }
 
     .container > .video {
         margin-top: 30px;
-        margin-left: -30px;
+        margin-left: 15px;
         width: 350px;
-        /* height: 250px; */
+        height: 200px;
     }
 
     .xizmatlar .container > .xizmatlar-text {
-        padding: 20px 23px;
+        padding: 20px 35px;
         font-size: 10px;
     }
 
@@ -401,6 +401,14 @@
         padding: 0 40px;
     }   
 
+    .ishlash .container > .ishlash-text{
+        padding: 10px 30px;
+    }
+
+    .form .container > .form-text {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
     form input {
         width: 210px;
     }
@@ -416,8 +424,8 @@
         margin-top: -30px;
     }
     .internet-list {
-        margin-top: 50px;
-        margin-left: -16px;
+        margin-top: 20px;
+        margin-left: -23px;
         padding: 23px;
     }
     .container .copy {
