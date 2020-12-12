@@ -264,13 +264,14 @@
         font-size: 30px;
     }
     .business > .business-text {
-        margin: 30px -9px;
+        margin: 30px 59px;
         font-size: 10px;
+        width: 100px;
     }
 
     .container > .video {
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 19px;       
         width: 400px;
         height: 250px;
     }
@@ -285,6 +286,10 @@
 
     .ishlash .container > .ishlash-title {
         font-size: 30px;
+    }
+
+    .ishlash-list{
+        width: 92%;
     }
 
     .ishlash .container > .ishlash-text {
@@ -338,11 +343,10 @@
 }
 
 @media (max-width: 460px){
-    *{
-        border: 1px solid red;
-    }
+    
     .container{
         width: 90%;
+        margin: 0 auto;
         /* padding: 50px; */
     }
 
@@ -452,8 +456,8 @@
     }
     .internet-list {
         margin-top: -5px;
-        margin-left: 10px;
-        padding: 23px;
+        margin-left: 20px;
+        /* padding: 23px; */
     }
 
     .internet-link p{
