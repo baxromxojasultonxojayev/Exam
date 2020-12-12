@@ -378,7 +378,7 @@
 
     .container > .video {
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: -30px;
         width: 350px;
         /* height: 250px; */
     }
@@ -400,14 +400,25 @@
         font-size: 15px;
         padding: 0 40px;
     }   
+
+    form input {
+        width: 210px;
+    }
+    form select {
+        width: 210px;
+    }
+
+    form .order {
+        padding: 10px 63px;
+    }
     footer > .container {
         display: block;
         margin-top: -30px;
     }
     .internet-list {
         margin-top: 50px;
-        margin-left: -36px;
-        padding: 33px;
+        margin-left: -16px;
+        padding: 23px;
     }
     .container .copy {
         /* padding-top: 50px; */
