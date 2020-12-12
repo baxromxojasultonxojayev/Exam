@@ -41,6 +41,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.hamburger{
+    display: none;
+}
 .nav-item{
     padding: 10px;
     font-size: 15px;

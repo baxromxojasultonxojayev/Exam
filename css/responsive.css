@@ -127,17 +127,21 @@
     }
 
     .logo{
-        margin-left: 40px;
+        width: 300px;
+        margin-left: 50px;
     }
 
     .nav-list {
         width: 100%;
         justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
         /* flex-wrap: wrap; */
     }
+    
 
     .nav-item{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .container > .video {
@@ -196,14 +200,194 @@
     .container{
         width: 540px;
     }
+
+    .business > .business-text {
+        padding: 30px 33px;
+        font-size: 12px;
+    }
+
+    .container > .video {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .xizmatlar .container > .xizmatlar-text {
+        padding: 20px 33px;
+        font-size: 12px;
+    }
+
+    .buyurtma-link {
+        font-size: 12px;
+    }
+
+    .sahifa-link {
+        font-size: 12px;
+    }
+
+    .ishlash .container > .ishlash-text{
+        font-size: 12px;
+    }
+
+    .ishlash-item{
+        width: 500px;
+        margin-top: 30px;
+    }
+    .ishlash-item img {
+        width: 250px;
+        height: 120px;
+    }
+
+    .form .container > .form-text {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    footer > .container {
+        
+    }
+
+    .container .copy {
+        color: white;
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .sayt-list {
+        margin-left: 50px;
+    }
+
 }
 
 @media (max-width: 560px){
     .container{
         width: 440px;
     }
+
+    .business > .business-title {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .business > .business-text {
+        padding: 30px 33px;
+        font-size: 10px;
+    }
+
+    .container > .video {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 400px;
+        height: 250px;
+    }
+
+    .xizmatlar .container > .xizmatlar-title {
+        font-size: 30px;
+    }
+    .xizmatlar .container > .xizmatlar-text {
+        padding: 20px 33px;
+        font-size: 10px;
+    }
+
+    .ishlash .container > .ishlash-title {
+        font-size: 30px;
+    }
+
+    .ishlash .container > .ishlash-text {
+        font-size: 10px;
+    }
+
+    .ishlash-item{
+        width: 500px;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .ishlash-list .row{
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .ishlash-item > .talaba {
+        display: block;
+    }
+
+    .ishlash-item > .talaba .talaba-title {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .talaba-text {
+        font-size: 15px;
+        padding: 0 100px;
+    }
+
+    .form .container > .form-text {
+        padding: 0 10px;
+        font-size: 10px;
+    }
+
+    .form-title{
+        font-size: 30px;
+    }
+
+    .sayt-list {
+        margin-left: 0px;
+    }
+
+    .internet-list {
+        margin-left: 50px;
+    }
 }
 
+@media (max-width: 460px){
+    .container{
+        width: 340px;
+    }
+
+    .nav > .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .logo{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .hamburger{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .business > .business-text {
+        padding: 30px 3px;
+        font-size: 10px;
+    }
+
+    .container > .video {
+        margin-top: 30px;
+        margin-left: -20px;
+        /* width: 400px;
+        height: 250px; */
+    }
+    footer > .container {
+        display: block;
+        margin-top: -30px;
+    }
+    .internet-list {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .container .copy {
+        padding-top: 50px;
+    }
+}
 
 /* @media (max-width: 1140px){
     .nav{
