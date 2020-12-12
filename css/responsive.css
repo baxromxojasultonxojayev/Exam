@@ -370,6 +370,7 @@
         width: 30px;
         cursor: pointer;
     }
+    
 
     .container > .business{
         margin-left: 1px;
@@ -381,6 +382,7 @@
     .business > .business-title {
         margin-top: 40px;
         font-size: 25px;
+        width: 370px;
     }
 
     .container > .video {
