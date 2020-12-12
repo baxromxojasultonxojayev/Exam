@@ -440,20 +440,38 @@
         padding: 10px 63px;
     }
     footer > .container {
-        display: block;
+        flex-wrap: wrap;
         padding-left: 50px;
         padding-top: 30px;
     }
+    .sayt-list h2{
+        font-size: 20px;
+    }
+
+    .sayt-link {
+        font-size: 12px;
+    }
     .internet-list {
-        margin-top: 20px;
-        margin-left: -23px;
+        margin-top: -5px;
+        margin-left: 10px;
         padding: 23px;
+    }
+
+    .internet-link p{
+        font-size: 12px;
+    }
+
+    .internet-title {
+        font-size: 20px;
     }
     .container .copy {
         /* padding-top: 50px; */
     }
     .cop-title{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .copy .copy-text {
+        font-size: 10px;
     }
 }
 
