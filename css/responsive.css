@@ -481,6 +481,15 @@
       width: 95%;  
     } 
 
+    .business > .business-text {
+        padding: 0px 12px;
+        font-size: 10px;
+    }
+
+    .business > .business-title {
+        margin-left: 20px;
+    }
+
     footer > .container {
         flex-wrap: wrap;
         /* padding-left: 20px; */
