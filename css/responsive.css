@@ -343,12 +343,13 @@
 
 @media (max-width: 460px){
     .container{
-        width: 340px;
+        width: 380px;
     }
 
     .nav > .container {
         display: flex;
         justify-content: space-between;
+        width: 300px    ;
     }
 
     .nav-list{
@@ -365,6 +366,10 @@
         width: 30px;
         cursor: pointer;
     }
+
+    .container > .business{
+        margin-left: 1px;
+    }
     .business > .business-text {
         padding: 30px 3px;
         font-size: 10px;
@@ -375,6 +380,24 @@
         margin-left: -20px;
         /* width: 400px;
         height: 250px; */
+    }
+
+    .xizmatlar .container > .xizmatlar-text {
+        padding: 20px 23px;
+        font-size: 10px;
+    }
+
+    .sahifa-link {
+        font-size: 10px;
+    }
+
+    .ishlash-item {
+        width: 350px;
+    }   
+
+    .talaba-text {
+        font-size: 15px;
+        padding: 0 40px;
     }
     footer > .container {
         display: block;
