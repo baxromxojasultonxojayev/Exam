@@ -344,6 +344,7 @@
 @media (max-width: 460px){
     .container{
         width: 380px;
+        padding: 50px;
     }
 
     .nav > .container {
@@ -377,9 +378,9 @@
 
     .container > .video {
         margin-top: 30px;
-        margin-left: -20px;
-        /* width: 400px;
-        height: 250px; */
+        margin-left: 20px;
+        width: 350px;
+        /* height: 250px; */
     }
 
     .xizmatlar .container > .xizmatlar-text {
@@ -398,17 +399,18 @@
     .talaba-text {
         font-size: 15px;
         padding: 0 40px;
-    }
+    }   
     footer > .container {
         display: block;
         margin-top: -30px;
     }
     .internet-list {
         margin-top: 50px;
-        margin-left: 0px;
+        margin-left: -36px;
+        padding: 33px;
     }
     .container .copy {
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
 }
 
